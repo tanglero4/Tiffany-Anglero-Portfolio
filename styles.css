@@ -1,0 +1,62 @@
+:root{
+    --main:rgb(13, 81, 110);
+}
+body{
+    line-height: 1.5;
+}
+/* Set header image */
+header{
+    background-image: url(assets/image/code-image.jpg);
+    width: 100%;
+    height: 28vh;
+}
+/* Set space between h1 and links */
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: antiquewhite;
+    font-size: 30px;
+    background-color: var(--main);
+    padding: 25px;
+}
+/* Sets background highlight stretch to the left*/
+h1{
+    background-color: rgba(41, 238, 249, 0.61);
+    padding: 8px 8px 8px 3%;
+ margin: 8px 0px 0px -25px;
+}
+li{
+    display: inline-block;
+    margin:20px 25px 0px 0px;
+}
+a{
+    color: antiquewhite;
+}
+/* Position to the bottom right of image */
+header p{
+    background-color: rgb(7, 119, 119);
+    font-size:22px;
+    position: absolute;
+    top:20vh; right:20vh;
+    color: aliceblue;
+    padding: 8px;
+}
+h2{
+    font-size: 50px;
+    margin: 5%;
+    padding: 0px 1% 5% 50px;
+    border-right:4px solid rgb(7, 111, 180);
+    position: relative;
+    left:15vh;
+    text-align: right;
+}
+#about{
+    display: flex;
+    justify-content: space-around;
+}
+#about p{
+    font-size: 24px;
+    margin:4% 12%;
+    padding-top: 3%;
+    text-align: justify;
+}
