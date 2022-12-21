@@ -3,7 +3,7 @@
 }
 body {
   background-color: rgba(228, 213, 191, 0.586);
-  background-image: url("/assets/image/camper.jpg");
+  background-image: url("assets/image/camper.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: hue;
@@ -76,9 +76,9 @@ h2 {
   /* background-color: rgb(196, 225, 221, 0.2); */
 }
 main {
-  background-image: url("/assets/image/coffee.jpg");
+  background-image: url("assets/image/coffee.jpg");
   background-size: cover;
-  height: 900px;
+  height: 100%;
 }
 h3 {
   color: var(--main);
@@ -100,7 +100,7 @@ h3 {
   gap: 40px;
 }
 .main-project {
-  background-image: url("/assets/image/bike.jpg");
+  background-image: url("assets/image/perfume.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 20vh;
@@ -123,8 +123,8 @@ article a {
   gap: 30px;
   margin-top: 3%;
 }
-.bycicle {
-  background-image: url("assets/image/bike.jpg");
+.balloon {
+  background-image: url("assets/image/balloon.jpg");
   width: 600px;
   height: 200px;
 }
@@ -151,15 +151,15 @@ article img {
 
 #contact h3 {
   padding: 4% 0% 4% 45%;
-  padding-bottom: 1%;
 }
 #contact a {
   border-radius: 30px;
   transition: all 0.5s ease-in- out;
 }
 #contact ul {
-  display: flex;
+  /* display: flex; */
   justify-content: space-around;
+  padding-bottom: 2%;
 }
 
 #contact a:hover {
