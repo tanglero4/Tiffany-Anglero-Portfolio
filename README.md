@@ -15,8 +15,12 @@ N/A
 ## Usage
 
 - Open up website: https://tanglero4.github.io/Tiffany-Anglero-Portfolio/
-  ![Tiffany Anglero`s portfolio featuring her work, about her, resume, images of her projects, and contact information.](/assets/images/)
+  ![Tiffany Anglero`s portfolio featuring her work, an avatar,about information, resume, images of her projects, and contact information.](assets/image/header.png)
 - Click on links in the navigation bar to be directed to the pertaining section or scroll down.
+  ![Tiffany Anglero`s portfolio featuring her about section and projects.](assets/image/about.png)
+- Click on the project images to access the project websites.
+  ![Tiffany Anglero`s portfolio featuring her projects, and contact information.](assets/image/work-contact.png)
+- Click on links under the contact section to be direcated toi respective websites.
 
 ## Credits
 
