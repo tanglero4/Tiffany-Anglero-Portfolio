@@ -75,11 +75,15 @@ h2 {
   text-align: justify;
   /* background-color: rgb(196, 225, 221, 0.2); */
 }
+main {
+  background-image: url("/assets/image/coffee.jpg");
+  background-size: cover;
+  height: 900px;
+}
 h3 {
   color: var(--main);
   font-size: 3rem;
   margin-right: 7vh;
-  /* border-right: 4px solid #cfb2a0; */
 }
 .flex {
   display: flex;
@@ -100,7 +104,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 20vh;
-  padding-left: 3%;
+  /* padding-left: 3%; */
   border: 4px solid var(--main);
   margin-bottom: 3vh;
 }
@@ -139,7 +143,32 @@ article a {
   width: 600px;
   height: 200px;
 }
+
 article img {
   filter: blur(1px);
   border: 4px solid var(--main);
+}
+
+#contact h3 {
+  padding: 4% 0% 4% 45%;
+  padding-bottom: 1%;
+}
+#contact a {
+  border-radius: 30px;
+  transition: all 0.5s ease-in- out;
+}
+#contact ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact a:hover {
+  box-shadow: inset 0px 0px 8px rgba(210, 198, 21, 0.795),
+    0 0 15px rgb(247, 168, 51);
+  background-color: aliceblue;
+}
+footer {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 10vh;
 }
