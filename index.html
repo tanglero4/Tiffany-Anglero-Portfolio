@@ -1,53 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Tiffany Anglero`s Portfolio 👩🏽‍💻</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="flex-header">
-        <nav>
-            <ul>
-                <p>Tiffany Anglero</p>
-                <li>
-                    <a href="#about">About me</a>
-                </li>
-                <li>
-                    <a href="#work">My Work</a>
-                </li>
-                <li>
-                    <a href="#">Contact Me</a>
-                </li>
-                <li>
-                    <a href="#">Resume</a>
-                </li>
-            </ul>
-        </nav>
-        <section class="introduction">
-            <h1>Hello, my name is Tiffany</h1>
-            <p>I am a web developer</p>
-        </section>
+      <p>Tiffany Anglero</p>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <a href="#">Resume</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-<main>
-    <section id="about" >
-<h2>About Me</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <section class="introduction">
+      <h1>Hello, my name is Tiffany</h1>
+      <p>I am a web developer</p>
+      <section class="avatar">
+        <img src="assets/image/avatar.png" />
+      </section>
     </section>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </section>
 
-<section id="work"class="flex">
-    <h2>Work</h2>
-        <article class="box1"></article>
-        <article class="box2"></article>
-        <article class="box3"></article>
-        <article class="box4"></article>
-        <article class="box5"></article>
-</section>
+      <section class="flex">
+        <section>
+          <h3 id="work">My Work</h3>
+        </section>
+        <section class="projects">
+          <article class="main-project"></article>
 
+          <article class="project-row1">
+            <img class="bycicle" />
 
+            <img class="flowers" />
+          </article>
+
+          <article class="project-row2">
+            <img class="lemons" />
+            <img class="oranges" />
+          </article>
+        </section>
+      </section>
     </main>
-</body>
+  </body>
 </html>

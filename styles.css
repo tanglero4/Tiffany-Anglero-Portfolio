@@ -1,60 +1,145 @@
-:root{
-    --main:rgba(189, 125, 28, 0.54);
+:root {
+  --main: rgba(189, 125, 28, 0.54);
 }
-body{
-    background-color: rgba(228, 213, 191, 0.586);
-    background-image: url("assets/image/photo-1527786356703-4b100091cd2c.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode:hue;
+body {
+  background-color: rgba(228, 213, 191, 0.586);
+  background-image: url("/assets/image/camper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: hue;
 }
-flex-header{
-    display: flex;
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 25px;
 }
-
-
-.introduction{
-    margin: 20px 60px;
-    }
-
-h1{
-    padding-top: 9rem;
-    color: var(--main);
-    font-size: 10rem;
+header p {
+  color: var(--main);
+  font-size: 24px;
+  font-weight: 500;
 }
-
-.introduction p{
-    font-size: 3rem;
-    padding: 4vh;
-    color: rgba(175, 113, 18, 0.54);
+ul {
+  display: flex;
+  color: var(--main);
 }
-h2{
-    color: var(--main);
-    display: flex;
-    font-size: 4rem;
-    margin: 5%;
-    padding: 0px 5% 8% 50px;
-    border-right:4px solid #CFB2A0;
-    position: relative;
-    left:15vh;
-    text-align: right;
+li {
+  padding-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: var(--main);
+  font-size: 24px;
+}
+.introduction {
+  margin: 20px 60px;
 }
 
-#about{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 12%;
+h1 {
+  padding-top: 9rem;
+  color: var(--main);
+  font-size: 10rem;
 }
-#about p{
-    color: rgb(79, 46, 3);
-    font-size: 2rem;
-    margin:4% 12%;
-    padding: 3% 2%;
-    text-align: justify;
-    background-color: rgb(196, 225, 221,0.2);
+
+.introduction p {
+  font-size: 3rem;
+  padding: 4vh;
+  color: var(--main);
 }
-.flex{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+
+h2 {
+  color: var(--main);
+  display: flex;
+  font-size: 4rem;
+  margin: 5%;
+  padding: 0px 5% 8% 50px;
+  /* border-right: 4px solid #cfb2a0; */
+  position: relative;
+  left: 19vh;
+  top: -10vh;
+  text-align: right;
+}
+.avatar img {
+  padding-left: 10vh;
+}
+#about {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 9%;
+}
+#about p {
+  color: rgb(79, 46, 3);
+  font-size: 2rem;
+  margin: -3% 8%;
+  padding: 3% 2%;
+  text-align: justify;
+  /* background-color: rgb(196, 225, 221, 0.2); */
+}
+h3 {
+  color: var(--main);
+  font-size: 3rem;
+  margin-right: 7vh;
+  /* border-right: 4px solid #cfb2a0; */
+}
+.flex {
+  display: flex;
+  padding-top: 2%;
+  margin-left: 35vh;
+}
+
+/* .projects {
+  margin: 1vh 0vh;
+} */
+.project-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.main-project {
+  background-image: url("/assets/image/bike.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20vh;
+  padding-left: 3%;
+  border: 4px solid var(--main);
+  margin-bottom: 3vh;
+}
+article a {
+  border: 4px solid var(--main);
+  padding: 10px;
+  margin: 10px 0px;
+}
+.project-row1 {
+  display: flex;
+  gap: 30px;
+}
+
+.project-row2 {
+  display: flex;
+  gap: 30px;
+  margin-top: 3%;
+}
+.bycicle {
+  background-image: url("assets/image/bike.jpg");
+  width: 600px;
+  height: 200px;
+}
+.flowers {
+  background-image: url("assets/image/flowers.jpg");
+  width: 600px;
+  height: 200px;
+}
+.lemons {
+  background-image: url("assets/image/lemon.jpg");
+  width: 600px;
+  height: 200px;
+}
+.oranges {
+  background-image: url("assets/image/oranges.jpg");
+  width: 600px;
+  height: 200px;
+}
+article img {
+  filter: blur(1px);
+  border: 4px solid var(--main);
 }
