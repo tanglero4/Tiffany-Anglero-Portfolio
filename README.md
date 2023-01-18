@@ -20,7 +20,7 @@ N/A
   ![Tiffany Anglero`s portfolio featuring her about section and projects.](assets/image/about.png)
 - Click on the project images to access the project websites.
   ![Tiffany Anglero`s portfolio featuring her projects, and contact information.](assets/image/work-contact.png)
-- Click on links under the contact section to be direcated toi respective websites.
+- Click on links under the contact section to be directed to the respective websites.
 
 ## Credits
 
