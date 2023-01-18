@@ -75,12 +75,13 @@ h2 {
   text-align: justify;
   /* background-color: rgb(196, 225, 221, 0.2); */
 }
-main {
-  background-image: url("assets/image/coffee.jpg");
-  background-size: cover;
-  height: 100%;
-}
+
 h3 {
+  color: var(--main);
+  font-size: 2rem;
+  margin-right: 7vh;
+}
+h4 {
   color: var(--main);
   font-size: 3rem;
   margin-right: 7vh;
@@ -91,9 +92,6 @@ h3 {
   margin-left: 35vh;
 }
 
-/* .projects {
-  margin: 1vh 0vh;
-} */
 .project-row {
   display: flex;
   flex-wrap: wrap;
@@ -123,7 +121,7 @@ article a {
   gap: 30px;
   margin-top: 3%;
 }
-.balloon {
+.fit-resolution {
   background-image: url("assets/image/balloon.jpg");
   width: 600px;
   height: 200px;
@@ -149,11 +147,11 @@ article img {
   border: 4px solid var(--main);
 }
 
-#contact h3 {
+#contact h4 {
   padding: 4% 0% 4% 45%;
 }
 #contact a {
-  border-radius: 30px;
+  border-radius: 20px;
   transition: all 0.5s ease-in- out;
 }
 #contact ul {
@@ -171,4 +169,52 @@ footer {
   text-align: center;
   font-size: 1rem;
   margin-bottom: 10vh;
+}
+@media only screen and (max-width: 780px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    position: unset;
+    text-align: left;
+    padding: 0;
+  }
+  h3 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 2vh;
+  }
+  main {
+    display: inline;
+  }
+  article {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  article img {
+    max-width: 100%;
+  }
+  footer {
+    padding-top: 2vh;
+  }
+  .introduction p {
+    font-size: 2rem;
+  }
+  .flex {
+    display: inline-block;
+    margin: 0;
+  }
+  #about {
+    display: block;
+    margin-top: 15%;
+    padding: 5vh;
+  }
+  #about p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  #contact a {
+    font-size: 1rem;
+  }
 }
